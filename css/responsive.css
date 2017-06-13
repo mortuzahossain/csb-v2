@@ -1,0 +1,192 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.view {
+	  height: 160px;
+	  width: 230px;
+	}
+	.view .mask, .view .content {
+	  height: 140px;
+	  width: 212px;
+	}
+	.welcome {
+	  font-size: 60px;
+	 }
+	.view p {
+		padding: 0px;
+	}
+	.well-wisher-item img {
+	  width: 80% !important;
+	}
+	.round-div {
+	  margin: 0px;
+	}
+	.home-btn {
+	  margin: 0 auto;
+	  width: auto;
+	}
+	.follow-us > a > img {
+	  height: 40px;
+	  margin-right: 3px;
+	  width: 40px;
+	}
+	.address > img {
+	  height: 100px;
+	  margin-bottom: 10px;
+	  width: 230px;
+	}
+    .upcomming-events > h2 {
+	  border: 1px solid;
+	  border-radius: 50%;
+	  color: white;
+	  font-size: 24px;
+	  height: 150px;
+	  margin: 0 auto;
+	  padding: 50px 0;
+	  text-transform: uppercase;
+	  width: 70%;
+	}
+
+		
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	
+	.counter-up-single-item{
+	  margin-bottom: 50px;
+	}
+	.upcomming-events {
+	  padding: 5px;
+	}
+	.upcomming-events > h2 {
+	  height: 130px;
+	  margin: 0 auto 25px;
+	  padding: 43px 0;
+	  width: 70%;
+	}
+	.upcomming-events > p {
+	  border: 2px solid;
+	  margin: 1%;
+	  padding: 1%;
+	}
+	.address > img {
+	  height: 100px;
+	  width: 286px;
+	}
+	.follow-us > a > img {
+	  height: 30px;
+	  margin-right: 2px;
+	  width: 30px;
+	}
+	.navbar-nav > li > a {
+	  font-size: 14px;
+	}
+	.round-div {
+	  margin: 0 35px;
+	  padding: 40px 0;
+	}
+	.single-blog-post-exarp h2 {
+	  font-size: 25px;
+	  margin-bottom: 2px;
+	}
+	.blog-read-more-btn > a {
+	  color: #000;
+	  height: auto;
+	  margin-top: -5px;
+	  display: block;
+	}
+	.blog-read-more-btn {
+	  height: 40px;
+	  margin: 10px auto;
+	  padding: 15px;
+	  width: 150px;
+	}
+	.blog-read-more-btn p {
+	  font-size: 16px;
+	}
+	.header-text h1 {
+	  font-size: 45px;
+	}
+	.single-post-content > img {
+	  margin-bottom: 0px;
+	  margin-top: 10px;
+	}
+	.view {
+	  height: 160px;
+	  width: 220px;
+	}
+	.view .mask, .view .content {
+	  height: 140px;
+	  width: 210px;
+	}
+	.view img {
+	  height: 100%;
+	}
+	.single-team-member {
+	  padding: 0;
+	}
+	.send-mail > h2, .coltact-details > h2 {
+	  font-size: 20px;
+	  margin-bottom: 0px;
+	  margin-top: 0px;
+	  padding-bottom: 20px;
+	  text-align: center;
+	  text-transform: uppercase;
+	}
+	.address-area h2{
+	  margin-top: 30px;
+	}
+	.address-area h2, .phone-area h2, .email-area h2 {
+	  margin-bottom: 10px;
+	  margin-top: 20px;
+	  text-transform: uppercase;
+	  font-size: 22px;
+	}
+	.contact-btn{
+	  margin: 0 auto;
+	}
+	.view p {
+		padding: 0px;
+	}
+	.pracedent-part-container{
+		padding-left: 0px;
+	}
+	.about-thumb {
+	  height: 340px;
+	  width: 300px;
+	}
+	.well-wisher-item.text-center {
+	  margin-left: 25px;
+	}
+	.single-creative-team {
+	  margin-left: 64px;
+	}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.welcome {
+	  font-size: 40px;
+	}
+	.round-div {
+	  border-radius: 50%;
+	  margin: 15px 100px;
+	  padding: 9px 0;
+	  position: relative;
+	  z-index: 1;
+	}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.welcome {
+	  font-size: 40px;
+	}
+	.round-div {
+	  border-radius: 50%;
+	  margin: 15px 100px;
+	  padding: 9px 0;
+	  position: relative;
+	  z-index: 1;
+	}
+
+}
